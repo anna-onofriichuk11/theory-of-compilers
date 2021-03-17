@@ -5,15 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace COMP442_Assignment2.Syntactic
+namespace Syntactic
 {
-    /*
-        A single rule for the grammar used by the syntactic analyzer
-        where a non-terminal symbol can produce a single set of
-        symbols
-
-        For COMP 442 Assignment 2 by Michael Bilinsky 26992358
-    */
+   
     class Rule
     {
         Production _production;
