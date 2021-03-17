@@ -1,16 +1,14 @@
-﻿using COMP442_Assignment2.Tokens;
+﻿using Tokens;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace COMP442_Assignment2.Syntactic
+namespace Syntactic
 {
     /*
         A non-terminal symbol in the grammar used by the syntactic analyzer
-
-        For COMP 442 Assignment 2 by Michael Bilinsky 26992358
     */
     class Production : IProduceable
     {
