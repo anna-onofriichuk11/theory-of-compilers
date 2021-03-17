@@ -1,12 +1,12 @@
-﻿using COMP442_Assignment2.Lexical;
-using COMP442_Assignment2.Tokens;
+﻿using Lexical;
+using Tokens;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace COMP442_Assignment2.Syntactic
+namespace Syntactic
 {
     /*
         This syntactic analyzer is a top-down table
@@ -14,8 +14,6 @@ namespace COMP442_Assignment2.Syntactic
         are held in Production classes and their first and follower sets are defined below.
         All productions are defined in Rule classes. The table is also
         automatically generated in this class.
-
-        For COMP 442 Assignment 2 by Michael Bilinsky 26992358
     */
     public class SyntacticAnalyzer
     {
